@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7991536100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "home page validation",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.;home-page-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1848472599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1192341099,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on tourHomePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tourHomePage",
+                  "offset": 11
+                }
+              ],
+              "location": "FlightReservationLoginSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87682400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "image of Aruba is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aruba",
+                  "offset": 9
+                }
+              ],
+              "location": "FlightReservationLoginSteps.image_is_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 188624299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "current date is displayed",
+            "match": {
+              "location": "FlightReservationLoginSteps.current_date_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4032846801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "invalid login validation",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.;invalid-login-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1303526000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 624127101,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on tourHomePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tourHomePage",
+                  "offset": 11
+                }
+              ],
+              "location": "FlightReservationLoginSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2207296300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters userName and invalidPassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userName",
+                  "offset": 12
+                },
+                {
+                  "val": "invalidPassword",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightReservationLoginSteps.userEntersInvalidUserNameAndInvalidPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125955600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user lands on sign on page",
+            "match": {
+              "location": "FlightReservationLoginSteps.userLandsOnSignOnPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4135458200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "valid login validation",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.;valid-login-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 1286330400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1019050001,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on tourHomePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tourHomePage",
+                  "offset": 11
+                }
+              ],
+              "location": "FlightReservationLoginSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2337392501,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters userName and validPassword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "userName",
+                  "offset": 12
+                },
+                {
+                  "val": "validPassword",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightReservationLoginSteps.userEntersInvalidUserNameAndInvalidPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103694000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user lands searchFlightPage",
+            "match": {
+              "location": "FlightReservationLoginSteps.userLandsSearchFlightPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight reservation feature to check the login, search, booking and confirmation feature and generate report based on that.",
+    "description": "",
+    "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.",
+    "keyword": "Feature",
+    "uri": "features/flightReservationLogon.feature"
+  }
+]
