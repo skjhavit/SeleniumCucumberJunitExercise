@@ -1,7 +1,5 @@
 package modules;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import pageObjects.FlightFinderPage;
 import pageObjects.ToursHomePage;
@@ -11,7 +9,6 @@ import stepDefinitions.Hooks;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
-import java.util.Properties;
 
 public class TourHomePageAction {
 public static void isCurrentDateDisplayed(ToursHomePage homePage) {
@@ -23,9 +20,9 @@ public static void isCurrentDateDisplayed(ToursHomePage homePage) {
         Assert.assertEquals(imageName, homePage.getFeaturedDestination().split(":")[1].trim());
     }
 
-    public static void performLoginOperation(ToursHomePage homePage, String userName, String paswword) {
+    public static void performLoginOperation(ToursHomePage homePage, String userName, String password) {
         homePage.typeUserName(Hooks.props.getProperty(userName));
-        homePage.typePassword(Hooks.props.getProperty(paswword));
+        homePage.typePassword(Hooks.props.getProperty(password));
         homePage.submitForm();
     }
 

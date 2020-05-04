@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7991536100,
+              "duration": 7718842900,
               "status": "passed"
             },
             "match": {
@@ -17,11 +17,11 @@
         "line": 3,
         "name": "home page validation",
         "description": "",
-        "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.;home-page-validation",
+        "id": "flight-reservation-feature-to-check-the-logon-and-login-is-working-correctly;home-page-validation",
         "after": [
           {
             "result": {
-              "duration": 1848472599,
+              "duration": 1461622100,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1192341099,
+              "duration": 1140358000,
               "status": "passed"
             },
             "line": 4,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 87682400,
+              "duration": 264420000,
               "status": "passed"
             },
             "line": 5,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 188624299,
+              "duration": 187581800,
               "status": "passed"
             },
             "line": 6,
@@ -86,7 +86,7 @@
         "before": [
           {
             "result": {
-              "duration": 4032846801,
+              "duration": 4629622200,
               "status": "passed"
             },
             "match": {
@@ -97,11 +97,11 @@
         "line": 8,
         "name": "invalid login validation",
         "description": "",
-        "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.;invalid-login-validation",
+        "id": "flight-reservation-feature-to-check-the-logon-and-login-is-working-correctly;invalid-login-validation",
         "after": [
           {
             "result": {
-              "duration": 1303526000,
+              "duration": 1519232300,
               "status": "passed"
             },
             "match": {
@@ -114,7 +114,7 @@
         "steps": [
           {
             "result": {
-              "duration": 624127101,
+              "duration": 669138100,
               "status": "passed"
             },
             "line": 9,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 2207296300,
+              "duration": 2493406800,
               "status": "passed"
             },
             "line": 10,
@@ -148,13 +148,13 @@
                   "offset": 25
                 }
               ],
-              "location": "FlightReservationLoginSteps.userEntersInvalidUserNameAndInvalidPassword(String,String)"
+              "location": "FlightReservationLoginSteps.userEntersUserNameAndPassword(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 125955600,
+              "duration": 140884000,
               "status": "passed"
             },
             "line": 11,
@@ -170,7 +170,7 @@
         "before": [
           {
             "result": {
-              "duration": 4135458200,
+              "duration": 4402845700,
               "status": "passed"
             },
             "match": {
@@ -181,11 +181,11 @@
         "line": 13,
         "name": "valid login validation",
         "description": "",
-        "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.;valid-login-validation",
+        "id": "flight-reservation-feature-to-check-the-logon-and-login-is-working-correctly;valid-login-validation",
         "after": [
           {
             "result": {
-              "duration": 1286330400,
+              "duration": 1277626100,
               "status": "passed"
             },
             "match": {
@@ -198,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1019050001,
+              "duration": 591286100,
               "status": "passed"
             },
             "line": 14,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 2337392501,
+              "duration": 2641064700,
               "status": "passed"
             },
             "line": 15,
@@ -232,13 +232,13 @@
                   "offset": 25
                 }
               ],
-              "location": "FlightReservationLoginSteps.userEntersInvalidUserNameAndInvalidPassword(String,String)"
+              "location": "FlightReservationLoginSteps.userEntersUserNameAndPassword(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 103694000,
+              "duration": 168816100,
               "status": "passed"
             },
             "line": 16,
@@ -251,10 +251,180 @@
         ]
       }
     ],
-    "name": "Flight reservation feature to check the login, search, booking and confirmation feature and generate report based on that.",
+    "name": "Flight reservation feature to check the logon and login is working correctly",
     "description": "",
-    "id": "flight-reservation-feature-to-check-the-login,-search,-booking-and-confirmation-feature-and-generate-report-based-on-that.",
+    "id": "flight-reservation-feature-to-check-the-logon-and-login-is-working-correctly",
     "keyword": "Feature",
     "uri": "features/flightReservationLogon.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4249369800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "departing from on search page validation.",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;departing-from-on-search-page-validation.",
+        "after": [
+          {
+            "result": {
+              "duration": 1603708600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3572214700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is signed in and lands on searchPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchPage",
+                  "offset": 31
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userIsSignedInAndLandsOnSearchPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566090200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "field DepartingFrom has options New York and London available.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 32
+                },
+                {
+                  "val": "London",
+                  "offset": 45
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.fieldDepartingFromHasOptionsNewYorkAndLondonAvailable(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4528399600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Signed in user is able to perform search",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;signed-in-user-is-able-to-perform-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1704877200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3417293800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is signed in and lands on searchPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchPage",
+                  "offset": 31
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userIsSignedInAndLandsOnSearchPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1035607800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter from , to and serviceClass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "from",
+                  "offset": 11
+                },
+                {
+                  "val": "to",
+                  "offset": 18
+                },
+                {
+                  "val": "serviceClass",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userEnterFromToAndServiceClass(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17337100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user sees SelectFlight page",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.userSeesSelectFlightPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight reservation feature to check serach \u0026 select flight functionality is working correctly.",
+    "description": "",
+    "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.",
+    "keyword": "Feature",
+    "uri": "features/searchAndSelectFlightPage.feature"
   }
 ]

@@ -1,4 +1,4 @@
-Feature: Flight reservation feature to check the login, search, booking and confirmation feature and generate report based on that.
+Feature: Flight reservation feature to check the logon and login is working correctly
 
   Scenario: home page validation
     Given user is on tourHomePage

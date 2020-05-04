@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import com.gargoylesoftware.htmlunit.Page;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -9,12 +8,9 @@ import modules.TourHomePageAction;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import pageObjects.FlightFinderPage;
-import pageObjects.SelectFlightPage;
 import pageObjects.ToursHomePage;
 import pageObjects.ToursSignOnPage;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Properties;
 
 public class FlightReservationLoginSteps {
@@ -46,7 +42,7 @@ public class FlightReservationLoginSteps {
     }
 
     @When("^user enters (.*) and (.*)$")
-    public void userEntersInvalidUserNameAndInvalidPassword(String userName, String password) {
+    public void userEntersUserNameAndPassword(String userName, String password) {
         TourHomePageAction.performLoginOperation(page,userName,password);
     }
 
