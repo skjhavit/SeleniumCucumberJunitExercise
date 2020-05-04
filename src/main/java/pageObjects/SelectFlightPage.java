@@ -37,6 +37,10 @@ public class SelectFlightPage {
         return headerElements.stream().filter(webElement -> webElement.getAttribute("bgcolor").equalsIgnoreCase(color)).count() == headerElements.size();
     }
 
+    public Boolean areHeadersAlighned() {
+        return headerElements.stream().filter(webElement -> webElement.getAttribute("align").equalsIgnoreCase("center")).count() == headerElements.size();
+    }
+
     public Boolean isSortedByPrice() {
         ArrayList<Float> departurePrices = (ArrayList<Float>) this.departingFlights.stream().map(webElement -> Float.parseFloat(webElement.getAttribute("value").split("\\$")[2])).collect(Collectors.toList());
         ArrayList<Float> arrivalPrices = (ArrayList<Float>) this.arrivingFlights.stream().map(webElement -> Float.parseFloat(webElement.getAttribute("value").split("\\$")[2])).collect(Collectors.toList());

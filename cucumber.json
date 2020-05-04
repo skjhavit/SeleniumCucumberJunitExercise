@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7718842900,
+              "duration": 7369539600,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 1461622100,
+              "duration": 1322236899,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1140358000,
+              "duration": 870632800,
               "status": "passed"
             },
             "line": 4,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 264420000,
+              "duration": 107536400,
               "status": "passed"
             },
             "line": 5,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 187581800,
+              "duration": 192730800,
               "status": "passed"
             },
             "line": 6,
@@ -86,7 +86,7 @@
         "before": [
           {
             "result": {
-              "duration": 4629622200,
+              "duration": 4881957900,
               "status": "passed"
             },
             "match": {
@@ -101,7 +101,7 @@
         "after": [
           {
             "result": {
-              "duration": 1519232300,
+              "duration": 1497214601,
               "status": "passed"
             },
             "match": {
@@ -114,7 +114,7 @@
         "steps": [
           {
             "result": {
-              "duration": 669138100,
+              "duration": 738086200,
               "status": "passed"
             },
             "line": 9,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 2493406800,
+              "duration": 2958587999,
               "status": "passed"
             },
             "line": 10,
@@ -154,7 +154,7 @@
           },
           {
             "result": {
-              "duration": 140884000,
+              "duration": 153605800,
               "status": "passed"
             },
             "line": 11,
@@ -170,7 +170,7 @@
         "before": [
           {
             "result": {
-              "duration": 4402845700,
+              "duration": 4217236800,
               "status": "passed"
             },
             "match": {
@@ -185,7 +185,7 @@
         "after": [
           {
             "result": {
-              "duration": 1277626100,
+              "duration": 1474499800,
               "status": "passed"
             },
             "match": {
@@ -198,7 +198,7 @@
         "steps": [
           {
             "result": {
-              "duration": 591286100,
+              "duration": 700285000,
               "status": "passed"
             },
             "line": 14,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 2641064700,
+              "duration": 2415951200,
               "status": "passed"
             },
             "line": 15,
@@ -238,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 168816100,
+              "duration": 111931601,
               "status": "passed"
             },
             "line": 16,
@@ -264,7 +264,7 @@
         "before": [
           {
             "result": {
-              "duration": 4249369800,
+              "duration": 4179618101,
               "status": "passed"
             },
             "match": {
@@ -273,13 +273,13 @@
           }
         ],
         "line": 3,
-        "name": "departing from on search page validation.",
+        "name": "departing from options on search page validation.",
         "description": "",
-        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;departing-from-on-search-page-validation.",
+        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;departing-from-options-on-search-page-validation.",
         "after": [
           {
             "result": {
-              "duration": 1603708600,
+              "duration": 1147984500,
               "status": "passed"
             },
             "match": {
@@ -292,7 +292,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3572214700,
+              "duration": 3163011001,
               "status": "passed"
             },
             "line": 4,
@@ -310,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 566090200,
+              "duration": 600037700,
               "status": "passed"
             },
             "line": 5,
@@ -336,7 +336,7 @@
         "before": [
           {
             "result": {
-              "duration": 4528399600,
+              "duration": 4922625700,
               "status": "passed"
             },
             "match": {
@@ -351,7 +351,7 @@
         "after": [
           {
             "result": {
-              "duration": 1704877200,
+              "duration": 1597501901,
               "status": "passed"
             },
             "match": {
@@ -364,7 +364,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3417293800,
+              "duration": 3833648700,
               "status": "passed"
             },
             "line": 8,
@@ -382,7 +382,7 @@
           },
           {
             "result": {
-              "duration": 1035607800,
+              "duration": 1218259700,
               "status": "passed"
             },
             "line": 9,
@@ -408,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 17337100,
+              "duration": 16389500,
               "status": "passed"
             },
             "line": 10,
@@ -417,6 +417,396 @@
               "location": "FlightSearchAndSelectionSteps.userSeesSelectFlightPage()"
             },
             "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4352678600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "The orders of flight is sorted based on price",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;the-orders-of-flight-is-sorted-based-on-price",
+        "after": [
+          {
+            "result": {
+              "duration": 1590861900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3153671199,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is signed in and lands on searchPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchPage",
+                  "offset": 31
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userIsSignedInAndLandsOnSearchPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1349472801,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter from , to and serviceClass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "from",
+                  "offset": 11
+                },
+                {
+                  "val": "to",
+                  "offset": 18
+                },
+                {
+                  "val": "serviceClass",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userEnterFromToAndServiceClass(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267743300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sees flights displayed are shorted based on price",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.userSeesFlightsDisplayedAreShortedBasedOnPrice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151920501,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "header sections are centrally alligned",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.headerSectionsAreCentrallyAlligned()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167310001,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Background color is Blue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blue",
+                  "offset": 20
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.backgroundColorIsBlue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 795290799,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects flight having second highest price",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.userSelectsFlightHavingSecondHighestPrice()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4401708700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Customer books the flight after verifying all the details",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;customer-books-the-flight-after-verifying-all-the-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1498411400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3845863601,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is signed in and lands on searchPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchPage",
+                  "offset": 31
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userIsSignedInAndLandsOnSearchPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1492059801,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enter from , to and serviceClass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "from",
+                  "offset": 11
+                },
+                {
+                  "val": "to",
+                  "offset": 18
+                },
+                {
+                  "val": "serviceClass",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userEnterFromToAndServiceClass(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1218261700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects flight having second highest price",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.userSelectsFlightHavingSecondHighestPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330033300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "details of review page is same as select flight page",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.detailsOfReviewPageIsSameAsSelectFlightPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314184599,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "total price is correct sum of all the prices",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.totalPriceIsCorrectSumOfAllThePrices()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5660747800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "after verifying all the details customer books the flight",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.afterVerifyingAllTheDetailsCustomerBooksTheFlight()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4022305500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "After booking flight customer verifies details on confirmation page and notes down the confirmation number",
+        "description": "",
+        "id": "flight-reservation-feature-to-check-serach-\u0026-select-flight-functionality-is-working-correctly.;after-booking-flight-customer-verifies-details-on-confirmation-page-and-notes-down-the-confirmation-number",
+        "after": [
+          {
+            "result": {
+              "duration": 1352486501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3377916401,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is signed in and lands on searchPage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchPage",
+                  "offset": 31
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userIsSignedInAndLandsOnSearchPage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 962523801,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enter from , to and serviceClass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "from",
+                  "offset": 11
+                },
+                {
+                  "val": "to",
+                  "offset": 18
+                },
+                {
+                  "val": "serviceClass",
+                  "offset": 25
+                }
+              ],
+              "location": "FlightSearchAndSelectionSteps.userEnterFromToAndServiceClass(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1220259801,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user selects flight having second highest price",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.userSelectsFlightHavingSecondHighestPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4622321599,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "after verifying all the details customer books the flight",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.afterVerifyingAllTheDetailsCustomerBooksTheFlight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135936699,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "customer verifies details of confirmation page is same as review page",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.customerVerifiesDetailsOfConfirmationPageIsSameAsReviewPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92094501,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "customer prints confirmation number",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.customerPrintsConfirmationNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579269700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "customer signs off",
+            "match": {
+              "location": "FlightSearchAndSelectionSteps.customerSignsOff()"
+            },
+            "keyword": "And "
           }
         ]
       }
